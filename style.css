@@ -1,0 +1,52 @@
+body {
+    background-color: aqua;
+}
+
+.my-photo img {
+    margin: auto;
+    display: block;
+}
+
+.my-container {
+    justify-items: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: auto;
+    grid-template-columns: repeat(3, minmax(60px, 1fr));
+    grid-template-columns: (auto-fill, minmax(60px, 1fr));
+}
+
+/* #newSize {
+    height: 20rem;
+    width: 20rem;
+}
+
+#Top {
+   justify-content: center;
+   text-size-adjust: 50;
+}
+#New{
+    align-content: center;
+    displey: flex;
+}
+
+.my-container {
+    border 1px solid blue;
+    width= 50%;
+    height: 50%;
+    background-color: hotpink;
+}
+
+.body {
+    
+    margin-bottom: 20px;
+}
+.main-form {
+    width: 450px;
+    margin: auto;
+    background: grey;
+    flex-shrink: 3;
+}
+.h1 {
+    text-align: center; */
+
+    
